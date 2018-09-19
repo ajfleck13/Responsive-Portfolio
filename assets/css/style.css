@@ -1,0 +1,263 @@
+body {
+    background-color: darkgray;
+}
+
+p {
+    size: 24px;
+    line-height: 32px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 24px;
+    margin: 8px 0px 4px 0px;
+    line-height: 32px;
+}
+
+hr {
+    margin: 30px 0px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.separatedtext {
+    margin: 0px 10px;
+}
+
+.navbarcontent
+{
+    position: relative;
+    width: 960px;
+    height: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    height: 100%;
+
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 0px 20px;
+
+    /* why is centering vertically so difficult??? */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    position: absolute;
+    right: 0;
+    height: 100%;
+
+    /* why is centering vertically so difficult??? */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect:visited {
+    text-decoration: none;
+}
+
+.redirect {
+    text-decoration: none;
+}
+
+.redirect:hover {
+    color:lightblue;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    height: 16px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #666666;
+    border-top-width: 4px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    padding: 8px 0px;
+    text-align: center;
+    z-index: 10;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 880px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    border: 2px solid #dddddd;
+}
+
+.profile {
+    float: left;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0px 20px 5px 0px;
+}
+
+.simpleinput {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 4px 0px 8px 0px;
+}
+
+.textbox {
+    height: 160px;
+    grid-auto-rows: 0;
+    width: 100%;
+    resize: none;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 4px;
+}
+
+.pfgrid {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    row-gap: 50px;
+}
+
+.pfelement {
+    width: 300px;
+    height: 300px;
+    resize: both;
+}
+
+.gridimage {
+    height: 100%;
+    width: 100%;
+}
+
+.pfheader {
+    position: relative;
+    width: 100%;
+    size: 15%;
+    bottom: 30%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inlinelink {
+    color: inherit; 
+    font-family: inherit;
+    size: inherit;
+    text-decoration: none;
+}
+
+.inlinelink:visited {
+    text-decoration: none;
+}
+
+input[type="submit"]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    size: 36px;
+    padding: 12px 30px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 980px) {
+    .content {
+        background-color: blueviolet;
+        width: 80%;
+        margin: 5% auto;
+        padding: 5% 5%;
+    }
+
+    .navbar {
+        top: 0px;
+        width: 100%;
+        height: 80px;
+    }
+
+    .navbarcontent
+    {
+        width: 90%;
+    }
+
+    .pfgrid {
+        grid-template-columns: 42vw 42vw;
+    }
+
+    .pfelement {
+        height: 35vw;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    p {
+        size: 4vw;
+        line-height: 6vw;
+    }
+
+    .content {
+        background-color: green;
+        width: 80%;
+        margin: 5% auto;
+        padding: 5% 5%;
+    }
+
+    .navbar {
+        top: 0px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .navbarcontent
+    {
+        width: 100%;
+    }
+
+    .name {
+        position: static;
+        height: 60px;
+    }
+
+    .links {
+        width: 100%;
+        height: 40px;
+    }
+
+    .pfgrid {
+        display: inline;
+    }
+
+    .pfelement {
+        height: 75vw;
+        width: 75vw;
+        margin: 4vw auto;
+    }
+
+    .footer {
+        position: static;
+    }
+  }
+  
