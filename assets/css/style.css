@@ -1,5 +1,5 @@
 body {
-    background-color: darkgray;
+    background-color: #4aaaa5;
 }
 
 p {
@@ -9,7 +9,7 @@ p {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: #6f2f99;
     font-size: 32px;
     font-weight: bold;
 }
@@ -52,7 +52,7 @@ hr {
     left: 0;
     height: 100%;
 
-    background-color: #4aaaa5;
+    background-color: #6f2f99;
     color: #ffffff;
     font-size: 32px;
     padding: 0px 20px;
@@ -96,7 +96,7 @@ hr {
     background-color: #666666;
     border-top-width: 4px;
     border-style: solid;
-    border-color: #4aaaa5;
+    border-color: #6f2f99;
     padding: 8px 0px;
     text-align: center;
     z-index: 10;
@@ -156,7 +156,7 @@ hr {
     width: 100%;
     size: 15%;
     bottom: 30%;
-    background-color: #4aaaa5;
+    background-color: #6f2f99;
     color: #ffffff;
     padding: 15px 0px;
     text-align: center;
@@ -175,7 +175,7 @@ hr {
 }
 
 input[type="submit"]{
-    background-color: #4aaaa5;
+    background-color: #6f2f99;
     color: #ffffff;
     border: none;
     size: 36px;
@@ -185,7 +185,6 @@ input[type="submit"]{
 
 @media screen and (max-width: 980px) {
     .content {
-        background-color: blueviolet;
         width: 80%;
         margin: 5% auto;
         padding: 5% 5%;
@@ -219,7 +218,6 @@ input[type="submit"]{
     }
 
     .content {
-        background-color: green;
         width: 80%;
         margin: 5% auto;
         padding: 5% 5%;
